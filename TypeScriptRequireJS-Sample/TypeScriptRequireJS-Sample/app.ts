@@ -12,5 +12,5 @@ require.config({
 
 require(['Source/main', 'jQuery'],
     (main?, $?) => {
-        var app = new main.Main()
+        var app = new main.Main();
     });
