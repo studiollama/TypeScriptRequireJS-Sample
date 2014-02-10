@@ -20,5 +20,5 @@ class Greeter {
     stop() {
         clearTimeout(this.timerToken);
     }
-//but export it like this so you can say var greeter = new Greeter() later on
+//but export it like this so you can say var greeter = new Greeter() later on instead of new Greeter.Greeter()
 } export = Greeter;
