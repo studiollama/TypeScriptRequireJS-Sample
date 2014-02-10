@@ -1,3 +1,5 @@
+//create your class like normal
+
 class Greeter {
     element: JQuery;
     span: HTMLElement;
@@ -18,5 +20,5 @@ class Greeter {
     stop() {
         clearTimeout(this.timerToken);
     }
-
+//but export it like this so you can say var greeter = new Greeter() later on
 } export = Greeter;

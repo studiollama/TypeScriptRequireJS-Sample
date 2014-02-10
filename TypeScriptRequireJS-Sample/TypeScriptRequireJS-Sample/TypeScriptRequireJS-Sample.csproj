@@ -26,11 +26,7 @@
     <Content Include="Scripts\jquery-2.1.0.min.js" />
     <Content Include="Scripts\r.js" />
     <Content Include="Scripts\require.js" />
-    <Content Include="Source\Greeter\greeter.js" />
-    <Content Include="Source\main.js" />
     <Content Include="web.config" />
-    <Content Include="Source\Greeter\greeter.js.map" />
-    <Content Include="Source\main.js.map" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="app.ts" />

@@ -1,3 +1,4 @@
+﻿//create your class like normal
 define(["require", "exports"], function(require, exports) {
     var Greeter = (function () {
         function Greeter() {
